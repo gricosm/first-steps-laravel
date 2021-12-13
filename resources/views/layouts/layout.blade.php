@@ -2,7 +2,7 @@
 
 @yield('content')
 
-<h2></h2>
+<h2>ESTO ES UN LAYOUT</h2>
 
 @extends('layout')
 
