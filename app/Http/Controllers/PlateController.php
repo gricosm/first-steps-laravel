@@ -43,6 +43,6 @@ class PlateController extends Controller
     public function destroy($id)
     {
         $plate = Plate::findOrFail($id);
-        $plate -> delete();
+        return $plate -> delete();
     }
 }
